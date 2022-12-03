@@ -24,6 +24,7 @@ public class SerwisPojazdu {
 
     @CreationTimestamp
     private LocalDateTime czasDodania;
+
     private LocalDateTime czasZrealizowania;
 
     @ManyToOne
